@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 500,
-  "height": 400,
-  "title": "Top 20 countries with the highest Power generation",
+  "width": 400,
+  "height": 500,
+  "title": "Global Renewable Energy Production",
   "data": {
     "url": "https://raw.githubusercontent.com/HeinTZaw/Homework-Week-10/main/02%20modern-renewable-energy-consumption.csv"
   },
