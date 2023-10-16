@@ -4,22 +4,29 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
 }
-
+h1
+{
+    font-family: 'Maven Pro', sans-serif;
+}
 body {
-    width: 920px; /* Set your desired fixed width */
+    font-family: 'Maven Pro', sans-serif;
+    width: 1000px; /* Set your desired fixed width */
     margin: 0 auto; /* Center the container horizontally */
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-
+body
+{
+    line-height: 1.5; 
+}
 .font-normal{
     font-size: 18px;
     font-weight:normal;
     text-align: left
 }
 .font-subheading{
-    font-size: 25px;
+    font-size: 20px;
     font-weight:bold;
     text-align: left;
     color:#30D5C8;
@@ -52,7 +59,7 @@ body {
           
       }
       .parallel-paragraphs {
-        columns: 3; /* Set the number of columns */
+        columns: 2; /* Set the number of columns */
         column-width: 200px; /* Adjust the column width as needed */
       }
       
@@ -60,7 +67,88 @@ body {
         word-wrap: break-word; /* Allow words to break onto the next line */
       }
       
+      /* styles.css */
+.container {
+    background-image: url('https://www.istockphoto.com/photo/before-sunrise-solar-power-plants-gm936999506-256309701'); /* Replace 'background.jpg' with your image file path */
+    background-size: cover; /* Adjust background size to cover the entire container */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent image from repeating */
+    height: 100vh; /* Set the container's height to the viewport height (full-screen) */
+  }
       
       
-      
-      
+  .font{
+    font-family: 'Maven Pro', sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    background-color: #afafaf;
+    font-size: 15px;
+    text-align: center;
+    margin-top: -50px;
+    padding-bottom: 20px;
+}
+/* styles.css */
+.parallel-paragraph_2 {
+    text-align: left; /* Justify text for even spacing */
+    column-count: 2; /* Adjust the number of columns as needed */
+    column-gap: 1em; /* Adjust the gap between columns as needed */
+  }
+  
+  p {
+    margin: 0 0 1em; /* Add margin between paragraphs for readability */
+  }
+
+  .heading {    
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 30px;
+    padding: 10px;
+    background-color: #cfcfcf;
+    text-align: left;
+    background-image: radial-gradient(circle, #2f7cc3, #de0c0c);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+
+}
+.justify_left
+{
+    text-align: left;
+}
+.important 
+{
+    font-family: 'Maven Pro', sans-serif;
+    font-weight:bold;
+    color:#2f7cc3  
+}
+.increase {
+    font-size: 18px;
+    color: #cb1b16;
+    font-weight: 500;
+}
+.southeastasia {
+    font-size: 17px;
+    color: #c7a16b;
+    font-weight: 500;
+}
+.europe {
+    font-size: 17px;
+    color: #ce796b;
+    font-weight: 500;
+}
+.emphasise {
+    font-size: 18px;
+    color: #fcac98;
+    font-weight: 500;
+}
+.Year
+{
+  
+    
+    color: #000;
+    font-weight: bold;
+}
+.UnitedNations
+{
+    color:#30D5C8;
+    font-weight: bold;
+}
